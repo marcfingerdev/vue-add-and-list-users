@@ -1,30 +1,34 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+<nav class="navbar navbar-expand-lg navbar navbar navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <router-link class="nav-link" to="/">Add User</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/ListUsers">User List</router-link>
+      </li>
+    </ul>
   </div>
+  <a class="navbar-brand" href="#">Vue - Marc Finger</a>
+</nav>
   <router-view/>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+   a.router-link-exact-active{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
 
-#nav {
-  padding: 30px;
-}
+  #app{
+    text-align: center;
+  }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  h1{
+    padding:40px
+  }
 </style>

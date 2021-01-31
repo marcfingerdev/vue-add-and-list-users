@@ -7,16 +7,37 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@vuelidate/core": "^2.0.0-alpha.8",
+    "@vuelidate/validators": "^2.0.0-alpha.5",
+    "ant-design-vue": "^1.7.2",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0",
+    "date-fns": "^2.16.1",
+    "element-plus": "^1.0.2-beta.31",
+    "element-ui": "^2.15.0",
+    "flatpickr": "^4.6.9",
+    "luxon": "^1.25.0",
+    "primeicons": "^4.1.0",
+    "primevue": "^3.2.0-rc.1",
+    "v-calendar": "^2.2.2",
+    "vue": "^3.0.5",
+    "vue-datetime": "^1.0.0-beta.14",
+    "vue-flatpickr-component": "^9.0.3",
     "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
+    "vue3-datepicker": "^0.2.2",
+    "vue3-datepicker-lite": "^1.8.5",
+    "vuelidate": "^0.7.6",
+    "vuex": "^4.0.0-0",
+    "weekstart": "^1.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-plugin-component": "^1.1.1",
+    "vue-devtools": "^5.1.4"
   }
 }
